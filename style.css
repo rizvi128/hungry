@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(248, 198, 70);
+}
+
+
+#searchDiv{
+    margin:auto ;
+    padding-top: 70px;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+
+
+}
+#inputText{
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    border: 2.5px solid black;
+    background-color: navajowhite;
+}
+button{
+    background-color: coral;
+    border-radius: 5px;
+    height: 25px;
+    width: 65px;
+    color: white;
+}
+.mealDiv,.categoryDiv {
+    background-color: navajowhite;
+    text-align: center;
+    font-size: 17px;
+    height: 250px;
+    width: 200px;
+    padding: auto;
+    border-radius: 5px;
+    border: navajowhite;
+    margin: auto;
+}
+
+.mealDiv img{
+    border: solid navajowhite;
+    height: 60%;
+    width: 90%;
+    margin-top: 10px;
+}
+.categoryDiv img{
+    border: solid navajowhite;
+    height: 60%;
+    width: 90%;
+    margin-top: 10px;
+}
+
+
+#resultDiv, #category{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+
+
+#aboutDiv{
+margin: 10% 35%;
+
+}
