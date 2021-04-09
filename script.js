@@ -33,7 +33,7 @@ function takeText() {
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${inputText}`)
 
         .then(res => res.json())
-        .then(data => mealList(data.meals))
+        .then(data => mealList(data?.meals))
 }
 
 const mealList = meals => {
